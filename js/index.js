@@ -156,4 +156,4 @@ if (question10 == "c" || question9 == "avtomobil dizayneri") {
   alert("xato qildizku");
 }
 
-alert(correct);
+alert(` siz  ${correct} ta savolga to'g'ri javob berdingiz`);
