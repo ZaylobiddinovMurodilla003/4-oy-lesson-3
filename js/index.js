@@ -127,3 +127,17 @@ var correct = 0;
 // } else {
 //   alert("xato qildizku");
 // }
+
+var question9 = prompt(`9. O'zbekiston Respublikasining poytaxti qaysi shahar?
+   
+a) Samarqand
+b) Toshkent
+c) Buxoro
+d) Qo'qon`);
+
+if (question9 == "b" || question9 == "toshkent" || question9 == "Toshkent") {
+  alert("good job");
+  correct += 1;
+} else {
+  alert("xato qildizku");
+}
